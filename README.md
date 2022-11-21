@@ -1,5 +1,11 @@
 # koudenpaのホームページ
 
+↓クリック↓
+
+https://7474.github.io/homepage/
+
+↑クリック↑
+
 ## ポリシー
 
 - 90年代を懐かしむ
