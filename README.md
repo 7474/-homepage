@@ -2,7 +2,7 @@
 
 ↓クリック↓
 
-https://7474.github.io/~homepage/
+https://7474.github.io/homepage/
 
 ↑クリック↑
 
