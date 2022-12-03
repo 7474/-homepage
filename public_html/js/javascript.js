@@ -24,8 +24,9 @@ window.onload = function () {
         if (mt_last_pos) { mt_pos.push(mt_last_pos); };
         while (mt_pos.length > mt_elements.length) { mt_pos.shift(); }
         for (var i = 0; i < mt_pos.length; i++) {
-            mt_elements[i].style.top = mt_pos[i].clientY;
-            mt_elements[i].style.left = mt_pos[i].clientX;
+            // 少しずらしてクリックを邪魔しないようにしておく（本当にそれでいいのか？？？）
+            mt_elements[i].style.top = mt_pos[i].clientY + 4;
+            mt_elements[i].style.left = mt_pos[i].clientX + 4;
         }
     }, 100);
 }
